@@ -33,14 +33,19 @@
 
 The following are some tips for how to query your ravendb from the querystring in your browser, its easier if you use Chrome with the JSonView addon for Chrome, this way you can view the nicely formatted JSon content within your documents.</p>
 
+<h4>General</h4>
 <ul>
-   <li>View documents by most recent changes:- http://localhost:8080/docs</li>
+<li>View documents by most recent changes:- http://localhost:8080/docs</li>
+</ul>
+
+<h4>Querying against Tenants</h4>
+<ul>
    <li>List of Indexes:- http://localhost:8080/indexes</li>
    <li>Specific Index:- http://localhost:8080/AlbumsCountSold (show me the contents of the Index)</li>
    <li>Specific Index Query:- http://localhost:8080/AlbumsCountSold?query=CountSold:3 (run a query with params)</li>
 </ul>
 
-<h4>Querying against Tenants</h4>
+
 <ul>
 <li>View the contents of a particular document in one of your tenant databases:- </li>
 </ul>
